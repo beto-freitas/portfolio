@@ -21,84 +21,69 @@ export const WorkExperienceTab = () => (
       <TimelineItem
         imageSrc="crewfare-logo.png"
         imageAlt="Company logo"
-        start="Feb 2024"
+        start="Feb 2025"
         end="Present"
         title="Crewfare"
         subtitle="Software Engineer"
       >
         <TimelineListItem>
-          Worked in a fast-paced environment delivering multiple features
+          Top contributor to the customer-facing booking site, owning checkout,
+          hotel room cards, SEO, and analytics.
         </TimelineListItem>
         <TimelineListItem>
-          Implemented pixel-perfect designs made by a UX engineer in Figma,
-          translating more than 20 components to code
+          Implemented pixel-perfect Figma designs, translating more than 20
+          components into production React and TypeScript.
         </TimelineListItem>
         <TimelineListItem>
-          Migrated a legacy project to newer technology to manage to double the
-          conversion rate
+          Migrated a legacy booking flow to a modern Next.js stack, improving
+          the conversion rate.
+        </TimelineListItem>
+        <TimelineListItem>
+          Upgraded the app to Next.js 16 with Turbopack and the React Compiler,
+          and moved forms to TanStack Form.
+        </TimelineListItem>
+        <TimelineListItem>
+          Improved SEO with server-rendered hotel lists, structured data,
+          canonical URLs, breadcrumbs, and sitemap updates.
+        </TimelineListItem>
+        <TimelineListItem>
+          Redesigned the team&apos;s AI agent skills around CI QA workflows.
         </TimelineListItem>
       </TimelineItem>
 
       <TimelineItem
         imageSrc="harmonit-logo.jpeg"
         imageAlt="Company logo"
-        parentStart="Nov 2023"
-        parentEnd="Oct 2024"
-        start="Nov 2023"
-        end="Oct 2024"
-        title="Harmonit"
-        subtitle="Software Engineer"
-      >
-        <TimelineListItem>
-          Implemented new features and optimizations on a ERP system, resulting
-          in a decrease on page load times, enhancing user experience and
-          overall system efficiency.
-        </TimelineListItem>
-        <TimelineListItem>
-          Enhanced user interface performance through the implementation of
-          React, TypeScript, TailwindCSS, and various UI tools, resulting in
-          improved user satisfaction and engagement.
-        </TimelineListItem>
-        <TimelineListItem>
-          Created a CI/CD pipeline, reducing deployment time by 70%, leading to
-          faster feature delivery and increased productivity.
-        </TimelineListItem>
-        <TimelineListItem>
-          Delivered features by collaborating with 20+ developers in a
-          fast-paced environment, ensuring seamless communication across teams.
-        </TimelineListItem>
-        <TimelineListItem>
-          Mentored and guided 6 new developers, resulting in an improvement in
-          code quality, leading to a more efficient and seamless project
-          delivery process.
-        </TimelineListItem>
-      </TimelineItem>
-
-      <TimelineItem
-        imageSrc="frg-logo.jpeg"
-        imageAlt="Company logo"
         parentStart="Apr 2021"
-        parentEnd="Nov 2023"
+        parentEnd="Oct 2024"
         start="Jun 2022"
-        end="Nov 2023"
-        title="FRG Informática"
+        end="Oct 2024"
+        title="Harmonit (formerly FRG Informática)"
         subtitle="Software Engineer"
       >
         <TimelineListItem>
-          Developed a scalable web ERP application for over 10,000 users using
-          React and TypeScript, leading to a seamless user experience and
-          improved operational efficiency.
+          Developed a scalable web ERP for 10,000+ users with React and
+          TypeScript.
         </TimelineListItem>
         <TimelineListItem>
-          Streamlined software loading process, achieving improvement through
-          packaging enhancements and the creation of a multi-modular
-          microfrontend system with Single- SPA, resulting in enhanced
-          application performance and user satisfaction.
+          Improved ERP load times by 60% by loading data concurrently with
+          Promise.all and Promise.race.
         </TimelineListItem>
         <TimelineListItem>
-          Facilitated seamless project updates within 6 months by implementing a
-          CI/CD pipeline, resulting in automatic deployments on AWS S3 and
-          improved caching on AWS CloudFront.
+          Worked on packaging improvements and a Single-SPA microfrontend
+          architecture.
+        </TimelineListItem>
+        <TimelineListItem>
+          Improved UI performance by 40% using React, TypeScript, and
+          TailwindCSS.
+        </TimelineListItem>
+        <TimelineListItem>
+          Built CI/CD pipelines with automated AWS S3 deployments and CloudFront
+          caching, reducing deployment time by 70%.
+        </TimelineListItem>
+        <TimelineListItem>
+          Delivered features in a team of 20+ developers and mentored 6 new
+          developers.
         </TimelineListItem>
       </TimelineItem>
 
@@ -108,9 +93,11 @@ export const WorkExperienceTab = () => (
         subtitle="Trainee Developer"
       >
         <TimelineListItem>
-          Mastered over 40 development courses within 8 months, excelling in web
-          programming with HTML, CSS, JavaScript, and REST APIs, establishing a
-          strong foundation for software development.
+          Completed 40+ development courses in 8 months, covering HTML, CSS,
+          JavaScript, and REST APIs.
+        </TimelineListItem>
+        <TimelineListItem>
+          Collaborated on debugging and ensuring application functionality.
         </TimelineListItem>
       </TimelineItem>
     </Timeline>
