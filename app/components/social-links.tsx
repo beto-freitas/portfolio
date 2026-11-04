@@ -26,7 +26,7 @@ export const SocialLinks = () => {
 		<ul className="flex gap-4 items-center w-fit">
 			<SocialLink
 				icon={GithubIcon}
-				href="https://github.com/GilbertoFreitasJunior997"
+				href="https://github.com/beto-freitas"
 			/>
 			<SocialLink
 				icon={LinkedinIcon}
@@ -34,7 +34,7 @@ export const SocialLinks = () => {
 			/>
 			<SocialLink
 				icon={MailIcon}
-				href="mailto:gilbertofreitasjunior997@gmail.com"
+				href="mailto:gilbertofreitas997@gmail.com"
 			/>
 		</ul>
 	);

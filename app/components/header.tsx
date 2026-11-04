@@ -27,7 +27,7 @@ export const Header = () => {
 			</section>
 
 			<h3 className="flex gap-1 items-center font-semibold">
-				<MapPinIcon className="size-4" /> São Paulo, Brazil
+				<MapPinIcon className="size-4" /> Marília, SP, Brazil
 			</h3>
 
 			<section className="flex gap-4 mt-4 text-foreground/80">

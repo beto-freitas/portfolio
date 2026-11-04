@@ -27,7 +27,7 @@ export const EducationTab = () => (
 				subtitle="Systems Analysis and Development"
 			>
 				<TimelineListItem>
-					Degree in Systems Analysis and Development, where I deepened my
+					Completed 1 year of the technologist program (no degree), where I deepened my
 					knowledge in data structures and had an introduction to Python.
 				</TimelineListItem>
 			</TimelineItem>
